@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORASI MAPABA XXIII</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col col-md-6 col-lg-4">
+        <p>
+          <button class="btn btn-primary">Mulai</button>
+        </p>
+        <h1 class="fw-normal">
+
+          Sebagai manusia, kita memiliki sifat sosial yang memungkinkan kita untuk bekerja sama dalam suatu kelompok
+          atau
+          organisasi. Namun, tidak semua kelompok atau organisasi dapat berjalan dengan baik tanpa adanya sosok pemimpin
+          yang dapat membimbing dan mengarahkan arah organisasi.
+          <br>
+          <br>
+
+          Kepemimpinan adalah kemampuan untuk mengarahkan, memimpin, dan membimbing orang lain dalam mencapai tujuan
+          yang
+          telah ditetapkan. Dalam konteks organisasi, kepemimpinan sangat penting karena pemimpin berperan sebagai motor
+          penggerak yang dapat menggerakkan seluruh anggota organisasi untuk bekerja dengan maksimal dan mencapai tujuan
+          bersama.
+          <br>
+          <br>
+
+          Tetapi, menjadi seorang pemimpin bukanlah hal yang mudah. Ada banyak tantangan dan tanggung jawab yang harus
+          dihadapi. Seorang pemimpin harus dapat memahami karakteristik dari setiap anggota, mengidentifikasi kekuatan
+          dan
+          kelemahan, serta memberikan motivasi yang tepat agar setiap anggota dapat berkontribusi dengan maksimal.
+          Pemimpin
+          juga harus mampu mengambil keputusan yang tepat dan memimpin organisasi dalam kondisi yang tidak pasti dan
+          penuh
+          tekanan.
+          <br>
+          <br>
+
+          Namun, menjadi seorang pemimpin bukan berarti harus selalu dominan dan berkuasa. Seorang pemimpin yang baik
+          harus
+          mampu mendengarkan dan menghargai pendapat dari seluruh anggota organisasi. Hal ini akan membuat anggota
+          merasa
+          dihargai dan terlibat dalam pengambilan keputusan, sehingga tercipta kebersamaan dan solidaritas di dalam
+          organisasi.
+          <br>
+          <br>
+
+          Selain itu, seorang pemimpin yang baik juga harus mampu memberikan contoh yang baik bagi seluruh anggota
+          organisasi. Pemimpin yang memiliki integritas tinggi, disiplin, dan bertanggung jawab akan menjadi panutan
+          bagi
+          anggota organisasi lainnya. Pemimpin yang dapat memimpin dengan teladan akan membangun kepercayaan dan
+          menginspirasi seluruh anggota organisasi untuk bekerja dengan semangat dan antusiasme yang tinggi.
+          <br>
+          <br>
+
+          Kesimpulannya, kepemimpinan sangat penting dalam berorganisasi. Seorang pemimpin yang baik harus mampu
+          mengarahkan, memimpin, dan membimbing seluruh anggota organisasi untuk mencapai tujuan bersama. Namun, seorang
+          pemimpin yang baik bukanlah pemimpin yang dominan dan berkuasa, tetapi juga mampu mendengarkan dan menghargai
+          pendapat dari seluruh anggota organisasi serta memberikan contoh yang baik bagi anggota lainnya.
+          <br>
+          <br>
+
+          Terima kasih telah mendengarkan pidato saya tentang kepemimpinan dalam berorganisasi. Saya berharap kita semua
+          dapat menjadi pemimpin yang baik dan dapat memimpin organisasi dengan teladan dan integritas yang tinggi.
+          <br>
+          <br>
+
+          Terima kasih.
+        </h1>
+      </div>
+    </div>
+  </main>
+  <script>
+    max = 6032
+    cu = 0
+    function scroll(params) {
+      setTimeout(() => {
+        cu += params
+        console.log(cu);
+        window.scrollTo(0, cu)
+        if (cu < max) {
+          scroll(params)
+        } else {
+          cu = 0
+        }
+      }, 900);
+    }
+
+    var button = document.querySelector('button');
+    button.addEventListener('click', function () {
+      scroll(40)
+    });
+  </script>
+
+</body>
+
+</html>
